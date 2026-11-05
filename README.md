@@ -11,3 +11,11 @@ Single-page journalist portfolio: plain HTML + Tailwind (CDN). No build step.
 
 ## Deploy
 Import this repo in Vercel (Framework preset: **Other**, no build command). Every push to `main` redeploys.
+
+## Styles
+`styles.css` is precompiled Tailwind (fast to load, no in-browser compiler).
+After changing classes in `index.html`, rebuild it:
+
+```bash
+npx tailwindcss@3.4.16 -c tailwind.config.js -i tailwind.input.css -o styles.css --minify
+```
