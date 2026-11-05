@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tendai Makaripe — Journalist</title>
+  <meta name="description" content="Portfolio of journalist Tendai Makaripe: selected reporting, biography, field photography and secure contact." />
+
+  <!-- Fonts: Newsreader (editorial serif) + Inter (UI sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink:   { DEFAULT: '#22262b', soft: '#4a5058', mute: '#767c84' }, // charcoal slate
+            paper: { DEFAULT: '#faf7f1', deep: '#f2ede3' },                   // warm cream
+            rule:  '#e2dccf',
+            accent:{ DEFAULT: '#7a2131', dark: '#5c1824', tint: '#f5e9e8' }  // muted burgundy
+          },
+          fontFamily: {
+            serif: ['Newsreader', 'Georgia', 'serif'],
+            sans:  ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html { -webkit-text-size-adjust: 100%; }
+    body { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+    section[id] { scroll-margin-top: 5rem; }
+    .clip[hidden] { display: none; }
+    ::selection { background: #7a2131; color: #faf7f1; }
+  </style>
+</head>
+
+<body class="bg-paper text-ink font-serif antialiased">
+
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-ink focus:text-paper focus:px-4 focus:py-2 font-sans text-sm">Skip to content</a>
+
+  <!-- ============================== HEADER ============================== -->
+  <header class="sticky top-0 z-40 bg-paper/95 backdrop-blur border-b border-rule">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+      <a href="#top" class="font-serif text-xl sm:text-2xl font-semibold tracking-tight text-ink">
+        Tendai <span class="italic font-normal">Makaripe</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="flex items-center gap-4 sm:gap-8 font-sans text-[13px] sm:text-sm font-medium uppercase tracking-[0.12em] text-ink-soft">
+          <li><a href="#work" class="hover:text-accent transition-colors">Work</a></li>
+          <li><a href="#about" class="hover:text-accent transition-colors">About</a></li>
+          <li><a href="#contact" class="hover:text-accent transition-colors">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================== HERO ============================== -->
+    <section id="top" class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-16 sm:pt-24 pb-16 sm:pb-24">
+      <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-6">Journalist · Reporter · Writer</p>
+      <h1 class="font-serif text-5xl sm:text-7xl lg:text-8xl font-semibold leading-[0.95] tracking-tight">
+        Tendai<br class="hidden sm:block" /> Makaripe
+      </h1>
+      <div class="mt-8 sm:mt-10 max-w-3xl border-l-2 border-accent pl-5 sm:pl-6">
+        <!-- REPLACE: one-sentence beat / positioning statement -->
+        <p class="font-serif text-2xl sm:text-3xl leading-snug font-medium text-ink">
+          [Your one-sentence beat line goes here — e.g. “Reporting on the people, money and policy shaping the region.”]
+        </p>
+      </div>
+      <div class="mt-10 flex flex-wrap gap-3 font-sans text-sm">
+        <a href="#work" class="inline-flex items-center gap-2 bg-ink text-paper px-5 py-3 hover:bg-accent transition-colors">Read selected work <span aria-hidden="true">↓</span></a>
+        <a href="#contact" class="inline-flex items-center gap-2 border border-ink/80 px-5 py-3 hover:border-accent hover:text-accent transition-colors">Send a tip securely</a>
+      </div>
+    </section>
+
+    <!-- ============================== ABOUT ============================== -->
+    <section id="about" class="border-t border-rule" aria-labelledby="about-heading">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24 grid md:grid-cols-12 gap-10 md:gap-14">
+        <!-- Column 1: Headshot -->
+        <div class="md:col-span-5">
+          <figure class="md:sticky md:top-24">
+            <div class="relative aspect-[4/5] bg-rule border border-ink/10 p-2 sm:p-3 bg-white">
+              <div class="relative w-full h-full bg-rule overflow-hidden">
+                <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">headshot.jpg</span>
+                <img src="headshot.jpg" alt="Portrait of Tendai Makaripe" class="relative w-full h-full object-cover grayscale-[15%]" onerror="this.style.display='none'" />
+              </div>
+            </div>
+            <figcaption class="mt-3 text-sm italic text-ink-mute">Tendai Makaripe. <span class="not-italic font-sans text-xs">Photo: [Credit]</span></figcaption>
+          </figure>
+        </div>
+
+        <!-- Column 2: Bio -->
+        <div class="md:col-span-7">
+          <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-3">Biography</p>
+          <h2 id="about-heading" class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight mb-8">About</h2>
+
+          <!-- REPLACE: paste the full biography below, one <p> per paragraph -->
+          <div class="max-w-[38rem] text-[1.1875rem] sm:text-xl leading-[1.7] text-ink-soft space-y-6">
+            <p class="first-letter:float-left first-letter:font-serif first-letter:text-7xl first-letter:leading-[0.8] first-letter:font-semibold first-letter:mr-3 first-letter:mt-1 first-letter:text-accent">
+              [Opening paragraph — who Tendai is, where they are based, and the beat they cover.]
+            </p>
+            <p>[Second paragraph — career path: newsrooms, outlets and the kind of stories they are known for.]</p>
+            <p>[Third paragraph — notable investigations, awards, fellowships or recognition.]</p>
+            <p>[Closing paragraph — what they are working on now and the kinds of stories or collaborations they welcome.]</p>
+          </div>
+
+          <dl class="mt-10 pt-8 border-t border-rule grid grid-cols-1 sm:grid-cols-2 gap-6 font-sans text-sm">
+            <div>
+              <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Based in</dt>
+              <dd class="text-ink">[City, Country]</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Languages</dt>
+              <dd class="text-ink">[Languages]</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Published in</dt>
+              <dd class="text-ink">[Outlet], [Outlet], [Outlet]</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Recognition</dt>
+              <dd class="text-ink">[Award or fellowship, Year]</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <!-- ============================== SELECTED WORK ============================== -->
+    <section id="work" class="border-t border-rule bg-paper" aria-labelledby="work-heading">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-10">
+          <div>
+            <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-3">Portfolio</p>
+            <h2 id="work-heading" class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight">Selected Work</h2>
+          </div>
+
+          <!-- Category tabs -->
+          <div role="tablist" aria-label="Filter clips by beat" class="flex flex-wrap gap-x-6 gap-y-2 font-sans text-sm border-b border-rule sm:border-0">
+            <button role="tab" aria-selected="true"  data-filter="all"           class="tab pb-2 border-b-2 border-accent text-ink font-semibold">All</button>
+            <button role="tab" aria-selected="false" data-filter="investigative" class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Investigative</button>
+            <button role="tab" aria-selected="false" data-filter="features"      class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Features</button>
+            <button role="tab" aria-selected="false" data-filter="oped"          class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Op-Eds</button>
+          </div>
+        </div>
+
+        <!--
+          CLIP TEMPLATE — duplicate an <article class="clip"> block per story.
+          Set data-category to: investigative | features | oped
+        -->
+        <div id="clips" class="divide-y divide-rule border-t border-b border-rule">
+
+          <!-- ---------- Investigative ---------- -->
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="investigative">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Investigative</p>
+              <p><span class="text-ink font-medium">[Publication]</span></p>
+              <p><time datetime="2026-01-01">[Month DD, YYYY]</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
+                <a href="#" class="hover:text-accent transition-colors">[Headline of the investigative story goes here]</a>
+              </h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Solo Reporter <span aria-hidden="true">/</span> Data Visualization <span aria-hidden="true">/</span> Document Analysis</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[First sentence: what the story revealed.] [Second sentence: the impact — a policy change, an inquiry, a reaction from officials or readers.]</p>
+              <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
+                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
+                <a href="clips/story-1.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="investigative">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Investigative</p>
+              <p><span class="text-ink font-medium">[Publication]</span></p>
+              <p><time datetime="2025-01-01">[Month DD, YYYY]</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
+                <a href="#" class="hover:text-accent transition-colors">[Headline of a second investigation]</a>
+              </h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Co-Reporter <span aria-hidden="true">/</span> Freedom of Information Requests</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[What the reporting uncovered, in one plain sentence.] [Why it mattered and what changed afterwards.]</p>
+              <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
+                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
+                <a href="clips/story-2.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ---------- Features ---------- -->
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="features">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Feature</p>
+              <p><span class="text-ink font-medium">[Publication]</span></p>
+              <p><time datetime="2025-06-01">[Month DD, YYYY]</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
+                <a href="#" class="hover:text-accent transition-colors">[Headline of a long-form feature]</a>
+              </h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Writer <span aria-hidden="true">/</span> Photography <span aria-hidden="true">/</span> 4,000 words</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[Who the story follows and the question at its heart.] [How readers responded, or what it added to the wider conversation.]</p>
+              <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
+                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
+                <a href="clips/story-3.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="features">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Feature</p>
+              <p><span class="text-ink font-medium">[Publication]</span></p>
+              <p><time datetime="2024-09-01">[Month DD, YYYY]</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
+                <a href="#" class="hover:text-accent transition-colors">[Headline of a profile or narrative piece]</a>
+              </h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Solo Reporter <span aria-hidden="true">/</span> Profile</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[A one-line hook on the subject.] [The context that makes the piece worth reading today.]</p>
+              <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
+                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
+                <a href="clips/story-4.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ---------- Op-Eds ---------- -->
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="oped">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Op-Ed</p>
+              <p><span class="text-ink font-medium">[Publication]</span></p>
+              <p><time datetime="2025-03-01">[Month DD, YYYY]</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
+                <a href="#" class="hover:text-accent transition-colors">[Headline of an opinion column]</a>
+              </h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Columnist <span aria-hidden="true">/</span> Commentary</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[The argument in a single sentence.] [Where it ran, who picked it up, or the debate it sparked.]</p>
+              <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
+                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
+                <a href="clips/story-5.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== FROM THE FIELD ============================== -->
+    <section id="field" class="border-t border-rule bg-paper-deep" aria-labelledby="field-heading">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-3">Photography</p>
+        <h2 id="field-heading" class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight mb-10">From the Field</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-10">
+          <!-- REPLACE src / caption / credit for each image -->
+          <figure>
+            <div class="relative aspect-[4/3] bg-rule overflow-hidden">
+              <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">field-1.jpg</span>
+              <img src="field-1.jpg" alt="[Describe the photo]" loading="lazy" class="relative w-full h-full object-cover" onerror="this.style.display='none'" />
+            </div>
+            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">[Caption: who, where, what is happening.] <span class="not-italic font-sans text-xs text-ink-mute">Photo: Tendai Makaripe</span></figcaption>
+          </figure>
+
+          <figure>
+            <div class="relative aspect-[4/3] bg-rule overflow-hidden">
+              <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">field-2.jpg</span>
+              <img src="field-2.jpg" alt="[Describe the photo]" loading="lazy" class="relative w-full h-full object-cover" onerror="this.style.display='none'" />
+            </div>
+            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">[Caption: who, where, what is happening.] <span class="not-italic font-sans text-xs text-ink-mute">Photo: Tendai Makaripe</span></figcaption>
+          </figure>
+
+          <figure>
+            <div class="relative aspect-[4/3] bg-rule overflow-hidden">
+              <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">field-3.jpg</span>
+              <img src="field-3.jpg" alt="[Describe the photo]" loading="lazy" class="relative w-full h-full object-cover" onerror="this.style.display='none'" />
+            </div>
+            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">[Caption: who, where, what is happening.] <span class="not-italic font-sans text-xs text-ink-mute">Photo: Tendai Makaripe</span></figcaption>
+          </figure>
+
+          <figure>
+            <div class="relative aspect-[4/3] bg-rule overflow-hidden">
+              <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">field-4.jpg</span>
+              <img src="field-4.jpg" alt="[Describe the photo]" loading="lazy" class="relative w-full h-full object-cover" onerror="this.style.display='none'" />
+            </div>
+            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">[Caption: who, where, what is happening.] <span class="not-italic font-sans text-xs text-ink-mute">Photo: [Photographer name]</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================== CONTACT / FOOTER ============================== -->
+  <footer id="contact" class="bg-ink text-paper" aria-labelledby="contact-heading">
+    <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24 grid md:grid-cols-2 gap-12 md:gap-16" style="scroll-margin-top:5rem">
+      <div>
+        <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-[#d9a3ab] mb-3">Get in touch</p>
+        <h2 id="contact-heading" class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight">Contact</h2>
+        <p class="mt-6 text-lg sm:text-xl leading-relaxed text-paper/80 max-w-md">For commissions, interviews, speaking and editorial collaborations.</p>
+
+        <a href="mailto:hello@example.com" class="mt-8 inline-block font-serif text-2xl sm:text-3xl italic underline underline-offset-[6px] decoration-1 decoration-paper/40 hover:decoration-paper break-all">hello@example.com</a>
+
+        <div class="mt-8 flex flex-wrap gap-3 font-sans text-sm">
+          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-paper/30 px-5 py-3 hover:bg-paper hover:text-ink transition-colors">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4 fill-current"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21H9z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://x.com/your-handle" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-paper/30 px-5 py-3 hover:bg-paper hover:text-ink transition-colors">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4 fill-current"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23zm-1.16 17.52h1.83L7.08 4.13H5.12z"/></svg>
+            X / Twitter
+          </a>
+        </div>
+      </div>
+
+      <!-- Secure tips callout -->
+      <aside class="self-start bg-paper text-ink p-6 sm:p-10 border-l-4 border-accent" aria-labelledby="tips-heading">
+        <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-3 flex items-center gap-2">
+          <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4 fill-none stroke-current" stroke-width="2"><rect x="4" y="11" width="16" height="10" rx="1"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+          For sources
+        </p>
+        <h3 id="tips-heading" class="font-serif text-2xl sm:text-3xl font-semibold leading-tight">Have a tip? Reach out securely via Signal or ProtonMail.</h3>
+        <p class="mt-4 text-base sm:text-lg leading-relaxed text-ink-soft">Use a personal device and network, not a work one. Your identity will be protected.</p>
+        <dl class="mt-6 space-y-4 font-sans text-sm">
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 border-t border-rule pt-4">
+            <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute">Signal</dt>
+            <dd><a href="https://signal.me/#p/+000000000000" class="font-medium text-accent underline underline-offset-4">[+000 00 000 0000]</a></dd>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 border-t border-rule pt-4">
+            <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute">ProtonMail</dt>
+            <dd><a href="mailto:tips@proton.me" class="font-medium text-accent underline underline-offset-4 break-all">[tips@proton.me]</a></dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <div class="border-t border-paper/15">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row justify-between gap-2 font-sans text-xs text-paper/60">
+        <p>© <span id="year">2026</span> Tendai Makaripe. All rights reserved.</p>
+        <a href="#top" class="hover:text-paper">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Category tabs: show clips whose data-category matches the selected tab
+    (function () {
+      const tabs = document.querySelectorAll('.tab');
+      const clips = document.querySelectorAll('.clip');
+      const on  = ['border-accent', 'text-ink', 'font-semibold'];
+      const off = ['border-transparent', 'text-ink-mute'];
+      tabs.forEach(tab => tab.addEventListener('click', () => {
+        tabs.forEach(t => {
+          const active = t === tab;
+          t.setAttribute('aria-selected', active);
+          t.classList.remove(...(active ? off : on));
+          t.classList.add(...(active ? on : off));
+        });
+        const f = tab.dataset.filter;
+        clips.forEach(c => { c.hidden = !(f === 'all' || c.dataset.category === f); });
+      }));
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
