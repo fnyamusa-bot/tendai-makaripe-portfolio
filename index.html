@@ -3,8 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tendai Makaripe — Journalist</title>
-  <meta name="description" content="Portfolio of journalist Tendai Makaripe: selected reporting, biography, field photography and secure contact." />
+  <title>Tendai Makaripe — Journalist, Researcher, Media Trainer</title>
+  <meta name="description" content="Tendai Makaripe is an award-winning Zimbabwean journalist, academic researcher and media trainer, and founder of Children's Voices." />
+  <meta property="og:title" content="Tendai Makaripe — Journalist" />
+  <meta property="og:description" content="Award-winning Zimbabwean journalist, academic researcher and media trainer." />
+  <meta property="og:image" content="images/headshot.jpg" />
 
   <!-- Fonts: Newsreader (editorial serif) + Inter (UI sans) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,7 +17,7 @@
   <style>
     html { -webkit-text-size-adjust: 100%; }
     body { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
-    section[id] { scroll-margin-top: 5rem; }
+    section[id], footer[id] { scroll-margin-top: 5rem; }
     .clip[hidden] { display: none; }
     ::selection { background: #7a2131; color: #faf7f1; }
   </style>
@@ -27,11 +30,11 @@
   <!-- ============================== HEADER ============================== -->
   <header class="sticky top-0 z-40 bg-paper/95 backdrop-blur border-b border-rule">
     <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
-      <a href="#top" class="font-serif text-xl sm:text-2xl font-semibold tracking-tight text-ink">
+      <a href="#top" class="font-serif text-xl sm:text-2xl font-semibold tracking-tight text-ink whitespace-nowrap">
         Tendai <span class="italic font-normal">Makaripe</span>
       </a>
       <nav aria-label="Primary">
-        <ul class="flex items-center gap-4 sm:gap-8 font-sans text-[13px] sm:text-sm font-medium uppercase tracking-[0.12em] text-ink-soft">
+        <ul class="flex items-center gap-4 sm:gap-8 font-sans text-[12px] sm:text-sm font-medium uppercase tracking-[0.12em] text-ink-soft">
           <li><a href="#work" class="hover:text-accent transition-colors">Work</a></li>
           <li><a href="#about" class="hover:text-accent transition-colors">About</a></li>
           <li><a href="#contact" class="hover:text-accent transition-colors">Contact</a></li>
@@ -43,21 +46,35 @@
   <main id="main">
 
     <!-- ============================== HERO ============================== -->
-    <section id="top" class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-16 sm:pt-24 pb-16 sm:pb-24">
-      <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-6">Journalist · Reporter · Writer</p>
+    <section id="top" class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-16 sm:pt-24 pb-14 sm:pb-20">
+      <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-6">Journalist · Academic Researcher · Media Trainer</p>
       <h1 class="font-serif text-5xl sm:text-7xl lg:text-8xl font-semibold leading-[0.95] tracking-tight">
         Tendai<br class="hidden sm:block" /> Makaripe
       </h1>
       <div class="mt-8 sm:mt-10 max-w-3xl border-l-2 border-accent pl-5 sm:pl-6">
-        <!-- REPLACE: one-sentence beat / positioning statement -->
         <p class="font-serif text-2xl sm:text-3xl leading-snug font-medium text-ink">
-          [Your one-sentence beat line goes here — e.g. “Reporting on the people, money and policy shaping the region.”]
+          Award-winning Zimbabwean journalist reporting on health, children’s rights and statelessness — the people the system leaves out.
         </p>
       </div>
       <div class="mt-10 flex flex-wrap gap-3 font-sans text-sm">
         <a href="#work" class="inline-flex items-center gap-2 bg-ink text-paper px-5 py-3 hover:bg-accent transition-colors">Read selected work <span aria-hidden="true">↓</span></a>
-        <a href="#contact" class="inline-flex items-center gap-2 border border-ink/80 px-5 py-3 hover:border-accent hover:text-accent transition-colors">Send a tip securely</a>
+        <a href="#contact" class="inline-flex items-center gap-2 border border-ink/80 px-5 py-3 hover:border-accent hover:text-accent transition-colors">Get in touch</a>
       </div>
+
+      <dl class="mt-14 sm:mt-20 grid grid-cols-1 sm:grid-cols-3 border-t border-rule">
+        <div class="py-5 sm:pr-6 border-b sm:border-b-0 sm:border-r border-rule">
+          <dt class="font-sans text-xs uppercase tracking-[0.15em] text-ink-mute">Recognition</dt>
+          <dd class="mt-1 text-xl font-medium">Nearly 20 journalism awards</dd>
+        </div>
+        <div class="py-5 sm:px-6 border-b sm:border-b-0 sm:border-r border-rule">
+          <dt class="font-sans text-xs uppercase tracking-[0.15em] text-ink-mute">Founder</dt>
+          <dd class="mt-1 text-xl font-medium">Children’s Voices</dd>
+        </div>
+        <div class="py-5 sm:pl-6">
+          <dt class="font-sans text-xs uppercase tracking-[0.15em] text-ink-mute">2024</dt>
+          <dd class="mt-1 text-xl font-medium">Inclusive Journalist of the Year</dd>
+        </div>
+      </dl>
     </section>
 
     <!-- ============================== ABOUT ============================== -->
@@ -66,13 +83,12 @@
         <!-- Column 1: Headshot -->
         <div class="md:col-span-5">
           <figure class="md:sticky md:top-24">
-            <div class="relative aspect-[4/5] bg-rule border border-ink/10 p-2 sm:p-3 bg-white">
-              <div class="relative w-full h-full bg-rule overflow-hidden">
-                <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">headshot.jpg</span>
-                <img src="headshot.jpg" alt="Portrait of Tendai Makaripe" class="relative w-full h-full object-cover grayscale-[15%]" onerror="this.style.display='none'" />
+            <div class="border border-ink/10 p-2 sm:p-3 bg-white">
+              <div class="aspect-[4/5] bg-rule overflow-hidden">
+                <img src="images/headshot.jpg" alt="Portrait of Tendai Makaripe in a dark three-piece suit" width="1080" height="1046" class="w-full h-full object-cover object-[62%_50%]" />
               </div>
             </div>
-            <figcaption class="mt-3 text-sm italic text-ink-mute">Tendai Makaripe. <span class="not-italic font-sans text-xs">Photo: [Credit]</span></figcaption>
+            <figcaption class="mt-3 text-sm italic text-ink-mute">Tendai Makaripe. <span class="not-italic font-sans text-xs">Photo: Osmud Photography</span></figcaption>
           </figure>
         </div>
 
@@ -81,156 +97,250 @@
           <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-3">Biography</p>
           <h2 id="about-heading" class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight mb-8">About</h2>
 
-          <!-- REPLACE: paste the full biography below, one <p> per paragraph -->
           <div class="max-w-[38rem] text-[1.1875rem] sm:text-xl leading-[1.7] text-ink-soft space-y-6">
             <p class="first-letter:float-left first-letter:font-serif first-letter:text-7xl first-letter:leading-[0.8] first-letter:font-semibold first-letter:mr-3 first-letter:mt-1 first-letter:text-accent">
-              [Opening paragraph — who Tendai is, where they are based, and the beat they cover.]
+              Tendai Makaripe is a decorated Zimbabwean journalist, academic researcher and media trainer with a strong background in journalism, teaching and research. He is the founder of Children’s Voices, an online platform focusing on children’s issues, and has earned nearly 20 awards for excellence in journalism across diverse areas such as environmental reporting and human rights-based education.
             </p>
-            <p>[Second paragraph — career path: newsrooms, outlets and the kind of stories they are known for.]</p>
-            <p>[Third paragraph — notable investigations, awards, fellowships or recognition.]</p>
-            <p>[Closing paragraph — what they are working on now and the kinds of stories or collaborations they welcome.]</p>
+            <p>Academically, he holds a Diploma in Journalism and Communication, as well as degrees in Political Science and in Politics and International Relations from the University of Zimbabwe.</p>
+            <p>As a lecturer, Tendai has taught subjects ranging from Mass Communication Research to International Affairs. His research, often focused on media, politics and governance in Africa, has enriched scholarly discussion in these fields.</p>
           </div>
 
           <dl class="mt-10 pt-8 border-t border-rule grid grid-cols-1 sm:grid-cols-2 gap-6 font-sans text-sm">
             <div>
               <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Based in</dt>
-              <dd class="text-ink">[City, Country]</dd>
+              <dd class="text-ink">Zimbabwe</dd>
             </div>
             <div>
-              <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Languages</dt>
-              <dd class="text-ink">[Languages]</dd>
+              <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Education</dt>
+              <dd class="text-ink">University of Zimbabwe</dd>
             </div>
             <div>
               <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Published in</dt>
-              <dd class="text-ink">[Outlet], [Outlet], [Outlet]</dd>
+              <dd class="text-ink">The Zimbabwe Independent, NewsDay, The African Reviewer, ZimSeen</dd>
             </div>
             <div>
-              <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Recognition</dt>
-              <dd class="text-ink">[Award or fellowship, Year]</dd>
+              <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute mb-1">Teaching</dt>
+              <dd class="text-ink">Mass Communication Research, International Affairs</dd>
             </div>
           </dl>
         </div>
       </div>
     </section>
+
     <!-- ============================== SELECTED WORK ============================== -->
-    <section id="work" class="border-t border-rule bg-paper" aria-labelledby="work-heading">
+    <section id="work" class="border-t border-rule" aria-labelledby="work-heading">
       <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-10">
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
           <div>
             <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-3">Portfolio</p>
             <h2 id="work-heading" class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight">Selected Work</h2>
           </div>
 
-          <!-- Category tabs -->
-          <div role="tablist" aria-label="Filter clips by beat" class="flex flex-wrap gap-x-6 gap-y-2 font-sans text-sm border-b border-rule sm:border-0">
-            <button role="tab" aria-selected="true"  data-filter="all"           class="tab pb-2 border-b-2 border-accent text-ink font-semibold">All</button>
-            <button role="tab" aria-selected="false" data-filter="investigative" class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Investigative</button>
-            <button role="tab" aria-selected="false" data-filter="features"      class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Features</button>
-            <button role="tab" aria-selected="false" data-filter="oped"          class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Op-Eds</button>
+          <div role="tablist" aria-label="Filter work by beat" class="flex flex-wrap gap-x-6 gap-y-2 font-sans text-sm border-b border-rule lg:border-0">
+            <button role="tab" aria-selected="true"  data-filter="all"            class="tab pb-2 border-b-2 border-accent text-ink font-semibold">All</button>
+            <button role="tab" aria-selected="false" data-filter="health"         class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Health</button>
+            <button role="tab" aria-selected="false" data-filter="rights"         class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Rights &amp; Statelessness</button>
+            <button role="tab" aria-selected="false" data-filter="accountability" class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Accountability</button>
+            <button role="tab" aria-selected="false" data-filter="research"       class="tab pb-2 border-b-2 border-transparent text-ink-mute hover:text-ink">Research</button>
           </div>
         </div>
 
         <!--
-          CLIP TEMPLATE — duplicate an <article class="clip"> block per story.
-          Set data-category to: investigative | features | oped
+          To add a story: copy an <article class="clip"> block and set data-category to
+          health | rights | accountability | research.
+          Stories without a known web link have no "Read Story" button; add one by copying
+          the <div class="mt-5 ..."> link row from another story. For an archived copy, add:
+          <a href="clips/your-file.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
         -->
         <div id="clips" class="divide-y divide-rule border-t border-b border-rule">
 
-          <!-- ---------- Investigative ---------- -->
-          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="investigative">
+          <!-- ---------- Health ---------- -->
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="health">
             <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
-              <p class="text-accent font-semibold">Investigative</p>
-              <p><span class="text-ink font-medium">[Publication]</span></p>
-              <p><time datetime="2026-01-01">[Month DD, YYYY]</time></p>
+              <p class="text-accent font-semibold">Health</p>
+              <p class="text-ink font-medium">The African Reviewer</p>
+              <p><time datetime="2024-12-19">December 19, 2024</time></p>
             </div>
             <div class="md:col-span-9">
               <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
-                <a href="#" class="hover:text-accent transition-colors">[Headline of the investigative story goes here]</a>
+                <a href="https://africanreviewer.com/exclusionary-practices-in-zimbabwes-health-insurance-system/" target="_blank" rel="noopener" class="hover:text-accent transition-colors">Exclusionary Practices in Zimbabwe’s Health Insurance System</a>
               </h3>
-              <p class="mt-3 font-sans text-xs text-ink-mute">Solo Reporter <span aria-hidden="true">/</span> Data Visualization <span aria-hidden="true">/</span> Document Analysis</p>
-              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[First sentence: what the story revealed.] [Second sentence: the impact — a policy change, an inquiry, a reaction from officials or readers.]</p>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Feature <span aria-hidden="true">/</span> Health Policy</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">Across Zimbabwe, millions of citizens — particularly the elderly and marginalised — find themselves shut out of the health insurance system. The piece examines how age rules and high premiums keep cover out of reach.</p>
               <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
-                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
-                <a href="clips/story-1.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+                <a href="https://africanreviewer.com/exclusionary-practices-in-zimbabwes-health-insurance-system/" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
               </div>
             </div>
           </article>
 
-          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="investigative">
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="health">
             <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
-              <p class="text-accent font-semibold">Investigative</p>
-              <p><span class="text-ink font-medium">[Publication]</span></p>
-              <p><time datetime="2025-01-01">[Month DD, YYYY]</time></p>
+              <p class="text-accent font-semibold">Health</p>
+              <p class="text-ink font-medium">The Zimbabwe Independent</p>
+              <p><time datetime="2024-08-30">August 30, 2024</time></p>
             </div>
             <div class="md:col-span-9">
               <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
-                <a href="#" class="hover:text-accent transition-colors">[Headline of a second investigation]</a>
+                <a href="https://newsday.co.zw/local-news/article/200031628/silent-grief-untold-struggles-of-men-who-lose-wives-during-childbirth" target="_blank" rel="noopener" class="hover:text-accent transition-colors">Silent grief: Untold struggles of men who lose wives during childbirth</a>
               </h3>
-              <p class="mt-3 font-sans text-xs text-ink-mute">Co-Reporter <span aria-hidden="true">/</span> Freedom of Information Requests</p>
-              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[What the reporting uncovered, in one plain sentence.] [Why it mattered and what changed afterwards.]</p>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Feature <span aria-hidden="true">/</span> Maternal Health</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">Maternal mortality is usually counted in the women lost. This feature turns to the husbands left behind — men raising children alone while carrying a grief they are often told not to show.</p>
               <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
-                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
-                <a href="clips/story-2.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+                <a href="https://newsday.co.zw/local-news/article/200031628/silent-grief-untold-struggles-of-men-who-lose-wives-during-childbirth" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
               </div>
             </div>
           </article>
 
-          <!-- ---------- Features ---------- -->
-          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="features">
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="health">
             <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
-              <p class="text-accent font-semibold">Feature</p>
-              <p><span class="text-ink font-medium">[Publication]</span></p>
-              <p><time datetime="2025-06-01">[Month DD, YYYY]</time></p>
+              <p class="text-accent font-semibold">Health</p>
+              <p class="text-ink font-medium">NewsDay</p>
+              <p><time datetime="2023-11-23">November 23, 2023</time></p>
             </div>
             <div class="md:col-span-9">
               <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
-                <a href="#" class="hover:text-accent transition-colors">[Headline of a long-form feature]</a>
+                <a href="https://newsday.co.zw/local-news/article/200019891/through-lifes-thorns-a-mental-patients-heartbreaking-battle-against-illness" target="_blank" rel="noopener" class="hover:text-accent transition-colors">Through life’s thorns: A mental patient’s heartbreaking battle against illness</a>
               </h3>
-              <p class="mt-3 font-sans text-xs text-ink-mute">Writer <span aria-hidden="true">/</span> Photography <span aria-hidden="true">/</span> 4,000 words</p>
-              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[Who the story follows and the question at its heart.] [How readers responded, or what it added to the wider conversation.]</p>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Feature <span aria-hidden="true">/</span> Mental Health</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">A close, human portrait of one woman’s long battle with mental illness in Zimbabwe.</p>
               <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
-                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
-                <a href="clips/story-3.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+                <a href="https://newsday.co.zw/local-news/article/200019891/through-lifes-thorns-a-mental-patients-heartbreaking-battle-against-illness" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
               </div>
             </div>
           </article>
 
-          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="features">
+          <!-- ---------- Rights & Statelessness ---------- -->
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="rights">
             <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
-              <p class="text-accent font-semibold">Feature</p>
-              <p><span class="text-ink font-medium">[Publication]</span></p>
-              <p><time datetime="2024-09-01">[Month DD, YYYY]</time></p>
+              <p class="text-accent font-semibold">Rights</p>
+              <p class="text-ink font-medium">NewsDay</p>
+              <p><time datetime="2024-12-27">December 27, 2024</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">Children bear the brunt of poverty as rights are compromised</h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Feature <span aria-hidden="true">/</span> Children’s Rights</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">How poverty is eroding the rights of Zimbabwe’s children — the beat at the heart of his platform, Children’s Voices.</p>
+            </div>
+          </article>
+
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="rights">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Statelessness</p>
+              <p class="text-ink font-medium">The Zimbabwe Independent</p>
+              <p><time datetime="2024-08-16">August 16, 2024</time></p>
             </div>
             <div class="md:col-span-9">
               <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
-                <a href="#" class="hover:text-accent transition-colors">[Headline of a profile or narrative piece]</a>
+                <a href="https://www.newsday.co.zw/theindependent/opinion/article/200031010/the-state-of-stateless-people-in-zim" target="_blank" rel="noopener" class="hover:text-accent transition-colors">The state of stateless people in Zim</a>
               </h3>
-              <p class="mt-3 font-sans text-xs text-ink-mute">Solo Reporter <span aria-hidden="true">/</span> Profile</p>
-              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[A one-line hook on the subject.] [The context that makes the piece worth reading today.]</p>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Analysis <span aria-hidden="true">/</span> Citizenship</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">Descendants of migrant workers brought from Malawi, Mozambique and Zambia in the colonial era still struggle to prove they are Zimbabwean. The piece sets out what statelessness costs them: education, healthcare and work.</p>
               <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
-                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
-                <a href="clips/story-4.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+                <a href="https://www.newsday.co.zw/theindependent/opinion/article/200031010/the-state-of-stateless-people-in-zim" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
               </div>
             </div>
           </article>
 
-          <!-- ---------- Op-Eds ---------- -->
-          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="oped">
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="rights">
             <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
-              <p class="text-accent font-semibold">Op-Ed</p>
-              <p><span class="text-ink font-medium">[Publication]</span></p>
-              <p><time datetime="2025-03-01">[Month DD, YYYY]</time></p>
+              <p class="text-accent font-semibold">Statelessness</p>
+              <p class="text-ink font-medium">The African Reviewer</p>
+              <p><time datetime="2024-07-31">July 31, 2024</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">Stateless and Uninsured: The Challenges of Identity and Insurance Access in Zimbabwe</h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Feature <span aria-hidden="true">/</span> Profile</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">Nomsa Kadereka, 20, was born in Zimbabwe to Mozambican parents but is recognised by neither country. Without papers she is also shut out of insurance, leaving her exposed to every accident and illness.</p>
+            </div>
+          </article>
+
+          <!-- ---------- Accountability ---------- -->
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="accountability">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Accountability</p>
+              <p class="text-ink font-medium">The Zimbabwe Independent</p>
+              <p><time datetime="2025-01-10">January 10, 2025</time></p>
             </div>
             <div class="md:col-span-9">
               <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
-                <a href="#" class="hover:text-accent transition-colors">[Headline of an opinion column]</a>
+                <a href="https://theindependent.co.zw/local-news/article/200036797/forgery-rap-sparks-fresh-legal-war-in-us48m-pfugari-estate" target="_blank" rel="noopener" class="hover:text-accent transition-colors">Forgery rap sparks fresh legal war in US$48m Pfugari estate</a>
               </h3>
-              <p class="mt-3 font-sans text-xs text-ink-mute">Columnist <span aria-hidden="true">/</span> Commentary</p>
-              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">[The argument in a single sentence.] [Where it ran, who picked it up, or the debate it sparked.]</p>
+              <p class="mt-3 font-sans text-xs text-ink-mute">News <span aria-hidden="true">/</span> Courts</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">A forgery allegation reopens the fight over the estate of the late property tycoon Edward “Pfugari” Nyanyiwa. The story follows the court papers at the centre of a long-running family dispute.</p>
               <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
-                <a href="#" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
-                <a href="clips/story-5.pdf" class="text-xs text-ink-mute hover:text-ink underline underline-offset-4">Archived PDF</a>
+                <a href="https://theindependent.co.zw/local-news/article/200036797/forgery-rap-sparks-fresh-legal-war-in-us48m-pfugari-estate" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">Read Story <span aria-hidden="true">↗</span></a>
               </div>
+            </div>
+          </article>
+
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="accountability">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Accountability</p>
+              <p class="text-ink font-medium">The African Reviewer</p>
+              <p><time datetime="2024-12-13">December 13, 2024</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">Counterfeit Tyres: A Deadly Gamble on Zimbabwe’s Roads</h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Feature <span aria-hidden="true">/</span> Road Safety</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">It opens with Tatenda Sibanda, 25, and Lydia Nyoni, 40, setting out on what began as an ordinary Tuesday journey. From there it examines the counterfeit tyres putting lives at risk on Zimbabwe’s roads.</p>
+            </div>
+          </article>
+
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="accountability">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Exclusive</p>
+              <p class="text-ink font-medium">ZimSeen</p>
+              <p><time datetime="2022-03-09">March 9, 2022</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">Mugabe’s Secret Wartime Son Revealed</h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Front-page exclusive</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">A front-page exclusive on a man said to be Robert Mugabe’s son from the liberation war years.</p>
+            </div>
+          </article>
+
+          <!-- ---------- Research ---------- -->
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="research">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Research</p>
+              <p class="text-ink font-medium">Langaa RPCIG</p>
+              <p><time datetime="2023-11">November 2023</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">Depictions of the Ukraine–Russia Conflict in the Zimbabwean Press</h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Academic publication <span aria-hidden="true">/</span> Frame Analysis</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">A frame analysis of how Zimbabwe’s press, including The Sunday Mail, covered the war in Ukraine.</p>
+            </div>
+          </article>
+
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="research">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Research</p>
+              <p class="text-ink font-medium">Palgrave Macmillan</p>
+              <p><time datetime="2023-03">March 2023</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">
+                <a href="https://link.springer.com/book/10.1007/978-3-031-19417-7" target="_blank" rel="noopener" class="hover:text-accent transition-colors">Converged Radio, Youth, and Participatory Politics in Harare, Zimbabwe</a>
+              </h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Book chapter, pp. 15–35 <span aria-hidden="true">/</span> with Lazarus Sauti</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">Published in <em>Converged Radio, Youth and Urbanity in Africa</em>, the chapter analyses how converged radio — on stations such as Power FM, Star FM and ZiFM Stereo — shapes young people’s political participation in Harare.</p>
+              <div class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-sm">
+                <a href="https://link.springer.com/book/10.1007/978-3-031-19417-7" target="_blank" rel="noopener" class="font-semibold text-accent hover:text-accent-dark underline underline-offset-4 decoration-2">View Book <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="clip py-10 grid md:grid-cols-12 gap-4 md:gap-8" data-category="research">
+            <div class="md:col-span-3 font-sans text-xs uppercase tracking-[0.15em] text-ink-mute space-y-1">
+              <p class="text-accent font-semibold">Research</p>
+              <p class="text-ink font-medium">University of Zimbabwe</p>
+              <p><time datetime="2020">2020</time></p>
+            </div>
+            <div class="md:col-span-9">
+              <h3 class="font-serif text-2xl sm:text-[1.75rem] font-semibold leading-tight tracking-tight">An Analysis of the Role of Social Media in Influencing Offline Political Activism in Zimbabwe</h3>
+              <p class="mt-3 font-sans text-xs text-ink-mute">Dissertation</p>
+              <p class="mt-4 text-lg leading-relaxed text-ink-soft max-w-2xl">A study of how social media drives offline political activism in Zimbabwe.</p>
             </div>
           </article>
 
@@ -244,87 +354,96 @@
         <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-3">Photography</p>
         <h2 id="field-heading" class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight mb-10">From the Field</h2>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-10">
-          <!-- REPLACE src / caption / credit for each image -->
-          <figure>
-            <div class="relative aspect-[4/3] bg-rule overflow-hidden">
-              <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">field-1.jpg</span>
-              <img src="field-1.jpg" alt="[Describe the photo]" loading="lazy" class="relative w-full h-full object-cover" onerror="this.style.display='none'" />
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-x-6 gap-y-10">
+          <figure class="md:col-span-3">
+            <div class="aspect-[3/2] md:aspect-auto md:h-[26rem] bg-rule overflow-hidden">
+              <img src="images/workshop.jpg" alt="Tendai Makaripe taking notes at a training session while a facilitator presents slides on nationality law" width="1080" height="719" loading="lazy" class="w-full h-full object-cover" />
             </div>
-            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">[Caption: who, where, what is happening.] <span class="not-italic font-sans text-xs text-ink-mute">Photo: Tendai Makaripe</span></figcaption>
+            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">Taking notes at a training session on nationality law and statelessness, a subject he has reported on for The Zimbabwe Independent and The African Reviewer.</figcaption>
           </figure>
 
-          <figure>
-            <div class="relative aspect-[4/3] bg-rule overflow-hidden">
-              <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">field-2.jpg</span>
-              <img src="field-2.jpg" alt="[Describe the photo]" loading="lazy" class="relative w-full h-full object-cover" onerror="this.style.display='none'" />
+          <figure class="md:col-span-2">
+            <div class="aspect-[4/5] md:aspect-auto md:h-[26rem] bg-rule overflow-hidden">
+              <img src="images/njama-awards.jpg" alt="Tendai Makaripe in a checked three-piece suit and bow tie at the NJAMA Awards" width="933" height="1400" loading="lazy" class="w-full h-full object-cover object-top" />
             </div>
-            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">[Caption: who, where, what is happening.] <span class="not-italic font-sans text-xs text-ink-mute">Photo: Tendai Makaripe</span></figcaption>
+            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">On the red carpet at the NJAMA Awards.</figcaption>
           </figure>
 
-          <figure>
-            <div class="relative aspect-[4/3] bg-rule overflow-hidden">
-              <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">field-3.jpg</span>
-              <img src="field-3.jpg" alt="[Describe the photo]" loading="lazy" class="relative w-full h-full object-cover" onerror="this.style.display='none'" />
+          <figure class="md:col-span-3">
+            <div class="aspect-[3/2] md:aspect-auto md:h-[26rem] bg-rule overflow-hidden">
+              <img src="images/ipec-award-2024.jpg" alt="Tendai Makaripe holding a certificate and trophy on stage with three award presenters" width="1080" height="727" loading="lazy" class="w-full h-full object-cover" />
             </div>
-            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">[Caption: who, where, what is happening.] <span class="not-italic font-sans text-xs text-ink-mute">Photo: Tendai Makaripe</span></figcaption>
+            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">Receiving the Inclusive Journalist of the Year award at the 2024 Insurance and Pensions Media Awards.</figcaption>
           </figure>
 
-          <figure>
-            <div class="relative aspect-[4/3] bg-rule overflow-hidden">
-              <span class="absolute inset-0 flex items-center justify-center font-sans text-xs uppercase tracking-widest text-ink-mute">field-4.jpg</span>
-              <img src="field-4.jpg" alt="[Describe the photo]" loading="lazy" class="relative w-full h-full object-cover" onerror="this.style.display='none'" />
-            </div>
-            <figcaption class="mt-3 text-[15px] leading-snug italic text-ink-soft">[Caption: who, where, what is happening.] <span class="not-italic font-sans text-xs text-ink-mute">Photo: [Photographer name]</span></figcaption>
-          </figure>
+          <!-- Awards panel -->
+          <aside class="md:col-span-2 bg-paper border-t-4 border-accent p-6 sm:p-8 self-start" aria-labelledby="awards-heading">
+            <h3 id="awards-heading" class="font-serif text-2xl font-semibold tracking-tight">Awards &amp; Recognition</h3>
+            <p class="mt-3 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-accent">2024</p>
+            <ul class="mt-2 space-y-3 text-[15px] leading-snug text-ink-soft">
+              <li><span class="text-ink font-medium">Yasser Arafat Journalist of the Year</span></li>
+              <li><span class="text-ink font-medium">Best Online Journalist</span> — Education Reporting Awards</li>
+              <li><span class="text-ink font-medium">Overall Winner</span> — Education Reporting Awards</li>
+              <li><span class="text-ink font-medium">Inclusive Journalist of the Year</span> — Insurance and Pensions Media Awards</li>
+              <li><span class="text-ink font-medium">Best Gender and the Environment Story</span> — Environmental Reporter Awards</li>
+            </ul>
+            <p class="mt-6 font-sans text-xs font-semibold uppercase tracking-[0.2em] text-accent">2023</p>
+            <ul class="mt-2 space-y-3 text-[15px] leading-snug text-ink-soft">
+              <li><span class="text-ink font-medium">Best Water and Sanitation Story</span> — Environmental Reporter Awards</li>
+            </ul>
+          </aside>
         </div>
       </div>
     </section>
-
   </main>
 
   <!-- ============================== CONTACT / FOOTER ============================== -->
   <footer id="contact" class="bg-ink text-paper" aria-labelledby="contact-heading">
-    <section class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24 grid md:grid-cols-2 gap-12 md:gap-16" style="scroll-margin-top:5rem">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24 grid md:grid-cols-2 gap-12 md:gap-16">
       <div>
         <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-[#d9a3ab] mb-3">Get in touch</p>
         <h2 id="contact-heading" class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight">Contact</h2>
-        <p class="mt-6 text-lg sm:text-xl leading-relaxed text-paper/80 max-w-md">For commissions, interviews, speaking and editorial collaborations.</p>
+        <p class="mt-6 text-lg sm:text-xl leading-relaxed text-paper/80 max-w-md">For commissions, interviews, media training, research collaborations and speaking.</p>
 
-        <a href="mailto:hello@example.com" class="mt-8 inline-block font-serif text-2xl sm:text-3xl italic underline underline-offset-[6px] decoration-1 decoration-paper/40 hover:decoration-paper break-all">hello@example.com</a>
+        <a href="mailto:tendaimakaripe@gmail.com" class="mt-8 inline-block font-serif text-2xl sm:text-3xl italic underline underline-offset-[6px] decoration-1 decoration-paper/40 hover:decoration-paper break-all">tendaimakaripe@gmail.com</a>
+        <p class="mt-3 font-sans text-sm text-paper/70"><a href="tel:+263773560235" class="hover:text-paper">+263 773 560 235</a></p>
 
         <div class="mt-8 flex flex-wrap gap-3 font-sans text-sm">
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-paper/30 px-5 py-3 hover:bg-paper hover:text-ink transition-colors">
-            <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4 fill-current"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21H9z"/></svg>
-            LinkedIn
+          <a href="https://wa.link/p59jng" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-paper/30 px-5 py-3 hover:bg-paper hover:text-ink transition-colors">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4 fill-current"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12.05 21.5h-.01a9.9 9.9 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88a9.86 9.86 0 0 1 9.89 9.89c0 5.45-4.44 9.88-9.9 9.88zm8.42-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.47-8.41z"/></svg>
+            WhatsApp
           </a>
-          <a href="https://x.com/your-handle" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-paper/30 px-5 py-3 hover:bg-paper hover:text-ink transition-colors">
-            <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4 fill-current"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23zm-1.16 17.52h1.83L7.08 4.13H5.12z"/></svg>
-            X / Twitter
+          <a href="https://www.instagram.com/makaripetendai" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-paper/30 px-5 py-3 hover:bg-paper hover:text-ink transition-colors">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4 fill-none stroke-current" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/share/15yaMcn8LU/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 border border-paper/30 px-5 py-3 hover:bg-paper hover:text-ink transition-colors">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4 fill-current"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.87.24-1.46 1.49-1.46h1.59V4.47c-.28-.04-1.22-.12-2.32-.12-2.3 0-3.86 1.4-3.86 3.97v2.18H7.8v3h2.6V21z"/></svg>
+            Facebook
           </a>
         </div>
       </div>
 
-      <!-- Secure tips callout -->
+      <!-- Secure tips callout. To add Signal or ProtonMail, copy one of the rows in the <dl>. -->
       <aside class="self-start bg-paper text-ink p-6 sm:p-10 border-l-4 border-accent" aria-labelledby="tips-heading">
         <p class="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-3 flex items-center gap-2">
           <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4 fill-none stroke-current" stroke-width="2"><rect x="4" y="11" width="16" height="10" rx="1"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
           For sources
         </p>
-        <h3 id="tips-heading" class="font-serif text-2xl sm:text-3xl font-semibold leading-tight">Have a tip? Reach out securely via Signal or ProtonMail.</h3>
-        <p class="mt-4 text-base sm:text-lg leading-relaxed text-ink-soft">Use a personal device and network, not a work one. Your identity will be protected.</p>
+        <h3 id="tips-heading" class="font-serif text-2xl sm:text-3xl font-semibold leading-tight">Have a tip? Reach out securely.</h3>
+        <p class="mt-4 text-base sm:text-lg leading-relaxed text-ink-soft">WhatsApp messages are end-to-end encrypted. Use a personal phone and network, not a work one. Your identity will be protected.</p>
         <dl class="mt-6 space-y-4 font-sans text-sm">
           <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 border-t border-rule pt-4">
-            <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute">Signal</dt>
-            <dd><a href="https://signal.me/#p/+000000000000" class="font-medium text-accent underline underline-offset-4">[+000 00 000 0000]</a></dd>
+            <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute">WhatsApp</dt>
+            <dd><a href="https://wa.link/p59jng" target="_blank" rel="noopener" class="font-medium text-accent underline underline-offset-4">+263 773 560 235</a></dd>
           </div>
           <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 border-t border-rule pt-4">
-            <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute">ProtonMail</dt>
-            <dd><a href="mailto:tips@proton.me" class="font-medium text-accent underline underline-offset-4 break-all">[tips@proton.me]</a></dd>
+            <dt class="text-xs uppercase tracking-[0.15em] text-ink-mute">Email</dt>
+            <dd><a href="mailto:tendaimakaripe@gmail.com" class="font-medium text-accent underline underline-offset-4 break-all">tendaimakaripe@gmail.com</a></dd>
           </div>
         </dl>
       </aside>
-    </section>
+    </div>
 
     <div class="border-t border-paper/15">
       <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row justify-between gap-2 font-sans text-xs text-paper/60">
@@ -335,7 +454,7 @@
   </footer>
 
   <script>
-    // Category tabs: show clips whose data-category matches the selected tab
+    // Beat tabs: show the stories whose data-category matches the selected tab
     (function () {
       const tabs = document.querySelectorAll('.tab');
       const clips = document.querySelectorAll('.clip');

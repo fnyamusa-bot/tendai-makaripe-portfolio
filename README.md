@@ -3,11 +3,11 @@
 Single-page journalist portfolio: plain HTML + Tailwind (CDN). No build step.
 
 ## Wiring up
-- Images go next to `index.html`: `headshot.jpg`, `field-1.jpg` … `field-4.jpg`.
+- Photos live in `images/` (headshot, workshop, award photos).
 - Archived PDFs go in `clips/` as `story-1.pdf`, `story-2.pdf`, …
-- Replace the bracketed placeholders (beat line, bio, clips, captions, contacts).
+- Content comes from the April 2025 portfolio PDF. Stories without a known web link have no "Read Story" button.
 - Add a story by copying an `<article class="clip">` block and setting
-  `data-category` to `investigative`, `features` or `oped`.
+  `data-category` to `health`, `rights`, `accountability` or `research`.
 
 ## Deploy
 Import this repo in Vercel (Framework preset: **Other**, no build command). Every push to `main` redeploys.
