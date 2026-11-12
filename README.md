@@ -3,7 +3,7 @@
 Single-page journalist portfolio: plain HTML + Tailwind (CDN). No build step.
 
 ## Wiring up
-- Photos live in `images/` (headshot, workshop, award photos).
+- Photos live in `images/`. To add one to the gallery, copy a `<figure>` block in the "From the Field" section. To add an award, copy an `<li>` in the "Awards" section.
 - Archived PDFs go in `clips/` as `story-1.pdf`, `story-2.pdf`, …
 - Content comes from the April 2025 portfolio PDF. Stories without a known web link have no "Read Story" button.
 - Add a story by copying an `<article class="clip">` block and setting
